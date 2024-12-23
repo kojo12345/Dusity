@@ -16,7 +16,7 @@ const Testimonials = () => {
         if(tx > -50){
             tx -=25;
         }
-        slider.current.style.transform = ' translatex(${tx}%)';
+        slider.current.style.transform = `translatex(${tx}%)`;
         
         
     }
@@ -24,7 +24,7 @@ const Testimonials = () => {
         if(tx > -50){
             tx +=25;
         }
-        slider.current.style.transform = ' translatex (${tx}%)';
+        slider.current.style.transform = `translatex (${tx}%)`;
     }
 
 
